@@ -54,8 +54,8 @@ nav {
         }
         100% {
             transform: translatex(-200%);
-        } */
-    }
+        }
+    } */
 
     .slide {
         display: flex;
@@ -68,9 +68,34 @@ nav {
             height: 100%;
             background-image: url(/images/desktop-image-hero-1.jpg);
             background-size: cover;
+            position: relative;
+            .slideArrows {
+                position: absolute;
+                display: flex;
+                width: 100px;
+                height: 50px;
+                bottom: 0;
+                right: -100px;
+                z-index: 100;
+                .arrowLeft, .arrowRight{
+                    width: 50%;
+                    background-color: black;
+                    background-image: url(/images/icon-angle-left.svg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    cursor: pointer;
+                }
+                .arrowLeft:hover, .arrowRight:hover {
+                    background-color: rgba(0, 0, 0, 0.747);
+                }
+                .arrowRight {
+                    background-image: url(/images/icon-angle-right.svg);
+                }
+            }
         }
         .discover {
             max-width: 45%;
+            position: relative;
             .marger {
                 margin: 10% ;
                 h2 {
@@ -93,6 +118,9 @@ nav {
                         width: 3rem;
                         margin-left: 3rem;
                     }
+                }
+                a:hover {
+                    opacity: 0.4;
                 }
             }
         }
@@ -137,3 +165,6 @@ footer {
     }
 }
 
+.fdsfs::before:hover {
+    
+}

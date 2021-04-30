@@ -53,30 +53,16 @@ nav .nav a:hover:after {
   position: relative;
   width: 100vw;
   height: 70vh;
-  -webkit-animation: 5s slide;
-          animation: 5s slide;
-}
+  /* animation: 5s slide ;
 
-@-webkit-keyframes slide {
-  0% {
-    -webkit-transform: translatex(0);
+    @keyframes slide {
+        0% {
             transform: translatex(0);
-  }
-  100% {
-    -webkit-transform: translatex(-200%);
+        }
+        100% {
             transform: translatex(-200%);
-  }
-}
-
-@keyframes slide {
-  0% {
-    -webkit-transform: translatex(0);
-            transform: translatex(0);
-  }
-  100% {
-    -webkit-transform: translatex(-200%);
-            transform: translatex(-200%);
-  }
+        }
+    } */
 }
 
 .menu .slide {
@@ -95,10 +81,41 @@ nav .nav a:hover:after {
   height: 100%;
   background-image: url(/images/desktop-image-hero-1.jpg);
   background-size: cover;
+  position: relative;
+}
+
+.menu .slide .imageMenu .slideArrows {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  height: 50px;
+  bottom: 0;
+  right: -100px;
+  z-index: 100;
+}
+
+.menu .slide .imageMenu .slideArrows .arrowLeft, .menu .slide .imageMenu .slideArrows .arrowRight {
+  width: 50%;
+  background-color: black;
+  background-image: url(/images/icon-angle-left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.menu .slide .imageMenu .slideArrows .arrowLeft:hover, .menu .slide .imageMenu .slideArrows .arrowRight:hover {
+  background-color: rgba(0, 0, 0, 0.747);
+}
+
+.menu .slide .imageMenu .slideArrows .arrowRight {
+  background-image: url(/images/icon-angle-right.svg);
 }
 
 .menu .slide .discover {
   max-width: 45%;
+  position: relative;
 }
 
 .menu .slide .discover .marger {
@@ -132,6 +149,10 @@ nav .nav a:hover:after {
 .menu .slide .discover .marger a img {
   width: 3rem;
   margin-left: 3rem;
+}
+
+.menu .slide .discover .marger a:hover {
+  opacity: 0.4;
 }
 
 .menu .slide2 {
