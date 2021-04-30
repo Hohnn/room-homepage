@@ -6,6 +6,7 @@ body {
           box-sizing: border-box;
   font-size: 12px;
   font-family: 'Spartan', sans-serif;
+  overflow: hidden;
 }
 
 a {
@@ -52,6 +53,30 @@ nav .nav a:hover:after {
   position: relative;
   width: 100vw;
   height: 70vh;
+  -webkit-animation: 5s slide;
+          animation: 5s slide;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translatex(0);
+            transform: translatex(0);
+  }
+  100% {
+    -webkit-transform: translatex(-200%);
+            transform: translatex(-200%);
+  }
+}
+
+@keyframes slide {
+  0% {
+    -webkit-transform: translatex(0);
+            transform: translatex(0);
+  }
+  100% {
+    -webkit-transform: translatex(-200%);
+            transform: translatex(-200%);
+  }
 }
 
 .menu .slide {
@@ -77,17 +102,17 @@ nav .nav a:hover:after {
 }
 
 .menu .slide .discover .marger {
-  margin: 6rem;
+  margin: 10%;
 }
 
 .menu .slide .discover .marger h2 {
-  font-size: 3.6rem;
+  font-size: 3.6em;
   line-height: 4rem;
 }
 
 .menu .slide .discover .marger p {
-  font-size: 1.2rem;
-  line-height: 1.9rem;
+  font-size: 1.2em;
+  line-height: 1.9em;
   color: #acacac;
 }
 
@@ -117,5 +142,44 @@ nav .nav a:hover:after {
 .menu .slide3 {
   -webkit-transform: translatex(200%);
           transform: translatex(200%);
+}
+
+footer {
+  width: 100%;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .darkImage {
+  width: 30%;
+  background-image: url(/images/image-about-dark.jpg);
+  background-size: cover;
+}
+
+footer .about {
+  width: 40%;
+}
+
+footer .about .marger {
+  margin: 8%;
+}
+
+footer .about .marger h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+footer .about .marger p {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #acacac;
+}
+
+footer .lightImage {
+  width: 30%;
+  background-image: url(/images/image-about-light.jpg);
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
