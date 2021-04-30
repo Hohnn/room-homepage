@@ -46,6 +46,26 @@ nav .nav a:hover:after {
           transform: translateX(-50%);
 }
 
+.firstSlide {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.secondSlide {
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+}
+
+.firstSlideBack {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.secondSlideBack {
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,9 +73,9 @@ nav .nav a:hover:after {
   position: relative;
   width: 100vw;
   height: 70vh;
-  /* animation: 5s slide ;
-
-    @keyframes slide {
+  -webkit-transition: 2s;
+  transition: 2s;
+  /* @keyframes slide {
         0% {
             transform: translatex(0);
         }
@@ -160,9 +180,17 @@ nav .nav a:hover:after {
           transform: translatex(100%);
 }
 
+.menu .slide2 .imageMenu {
+  background-image: url(/images/desktop-image-hero-2.jpg);
+}
+
 .menu .slide3 {
   -webkit-transform: translatex(200%);
           transform: translatex(200%);
+}
+
+.menu .slide3 .imageMenu {
+  background-image: url(/images/desktop-image-hero-3.jpg);
 }
 
 footer {

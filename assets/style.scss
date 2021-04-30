@@ -41,14 +41,29 @@ nav {
     }
 }
 
+.firstSlide {
+    transform: translateX(-100%);
+}
+
+.secondSlide {
+    transform: translateX(-200%);
+}
+
+.firstSlideBack {
+    transform: translateX(100%);
+}
+.secondSlideBack {
+    transform: translateX(200%);
+}
+
 .menu {
     display: flex;
     position: relative;
     width: 100vw;
     height: 70vh;
-    /* animation: 5s slide ;
+    transition: 2s;
 
-    @keyframes slide {
+    /* @keyframes slide {
         0% {
             transform: translatex(0);
         }
@@ -127,9 +142,15 @@ nav {
     }
     .slide2 {
         transform: translatex(100%);
+        .imageMenu {
+            background-image: url(/images/desktop-image-hero-2.jpg);
+        }
     }
     .slide3 {
         transform: translatex(200%);
+        .imageMenu {
+            background-image: url(/images/desktop-image-hero-3.jpg);
+        }
     }
 
 }
