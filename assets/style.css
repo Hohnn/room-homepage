@@ -103,7 +103,7 @@ nav .nav a:hover:after {
 .menu .slide .imageMenu {
   width: 55%;
   height: 100%;
-  background-image: url(/images/desktop-image-hero-1.jpg);
+  background-image: url(images/desktop-image-hero-1.jpg);
   background-size: cover;
   position: relative;
 }
@@ -123,7 +123,7 @@ nav .nav a:hover:after {
 .menu .slide .imageMenu .slideArrows .arrowLeft, .menu .slide .imageMenu .slideArrows .arrowRight {
   width: 50%;
   background-color: black;
-  background-image: url(/images/icon-angle-left.svg);
+  background-image: url(images/icon-angle-left.svg);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -134,7 +134,7 @@ nav .nav a:hover:after {
 }
 
 .menu .slide .imageMenu .slideArrows .arrowRight {
-  background-image: url(/images/icon-angle-right.svg);
+  background-image: url(images/icon-angle-right.svg);
 }
 
 .menu .slide .discover {
@@ -185,7 +185,7 @@ nav .nav a:hover:after {
 }
 
 .menu .slide2 .imageMenu {
-  background-image: url(/images/desktop-image-hero-2.jpg);
+  background-image: url(images/desktop-image-hero-2.jpg);
 }
 
 .menu .slide3 {
@@ -194,7 +194,7 @@ nav .nav a:hover:after {
 }
 
 .menu .slide3 .imageMenu {
-  background-image: url(/images/desktop-image-hero-3.jpg);
+  background-image: url(images/desktop-image-hero-3.jpg);
 }
 
 footer {
@@ -209,7 +209,7 @@ footer {
 
 footer .darkImage {
   width: 30%;
-  background-image: url(/images/image-about-dark.jpg);
+  background-image: url(images/image-about-dark.jpg);
   background-size: cover;
 }
 
@@ -234,7 +234,7 @@ footer .about .marger p {
 
 footer .lightImage {
   width: 30%;
-  background-image: url(/images/image-about-light.jpg);
+  background-image: url(images/image-about-light.jpg);
   background-size: cover;
 }
 
@@ -326,14 +326,14 @@ footer .lightImage {
     font-size: 0.5rem;
   }
   .imageMenu {
-    background-image: url(/images/mobile-image-hero-1.jpg) !important;
+    background-image: url(images/mobile-image-hero-1.jpg) !important;
     background-position: center;
   }
   .slide2 .imageMenu {
-    background-image: url(/images/mobile-image-hero-2.jpg) !important;
+    background-image: url(images/mobile-image-hero-2.jpg) !important;
   }
   .slide3 .imageMenu {
-    background-image: url(/images/mobile-image-hero-3.jpg) !important;
+    background-image: url(images/mobile-image-hero-3.jpg) !important;
   }
   .humContainer {
     position: relative;
