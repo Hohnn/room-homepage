@@ -85,7 +85,7 @@ nav {
         .imageMenu {
             width: 55%;
             height: 100%;
-            background-image: url(images/desktop-image-hero-1.jpg);
+            background-image: url(../images/desktop-image-hero-1.jpg);
             background-size: cover;
             position: relative;
             .slideArrows {
@@ -99,7 +99,7 @@ nav {
                 .arrowLeft, .arrowRight{
                     width: 50%;
                     background-color: black;
-                    background-image: url(images/icon-angle-left.svg);
+                    background-image: url(../images/icon-angle-left.svg);
                     background-repeat: no-repeat;
                     background-position: center;
                     cursor: pointer;
@@ -108,7 +108,7 @@ nav {
                     background-color: rgba(0, 0, 0, 0.747);
                 }
                 .arrowRight {
-                    background-image: url(images/icon-angle-right.svg);
+                    background-image: url(../images/icon-angle-right.svg);
                 }
             }
         }
@@ -147,13 +147,13 @@ nav {
     .slide2 {
         transform: translatex(100%);
         .imageMenu {
-            background-image: url(images/desktop-image-hero-2.jpg);
+            background-image: url(../images/desktop-image-hero-2.jpg);
         }
     }
     .slide3 {
         transform: translatex(200%);
         .imageMenu {
-            background-image: url(images/desktop-image-hero-3.jpg);
+            background-image: url(../images/desktop-image-hero-3.jpg);
         }
     }
 
@@ -166,7 +166,7 @@ footer {
     flex-wrap: wrap;
     .darkImage {
         width: 30%;
-        background-image: url(images/image-about-dark.jpg);
+        background-image: url(../images/image-about-dark.jpg);
         background-size: cover;
     }
     .about {
