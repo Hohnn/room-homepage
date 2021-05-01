@@ -186,7 +186,7 @@ footer {
     }
     .lightImage {
         width: 30%;
-        background-image: url(images/image-about-light.jpg);
+        background-image: url(../images/image-about-light.jpg);
         background-size: cover;
     }
 }
@@ -273,17 +273,17 @@ footer {
         font-size: 0.5rem;
     }
     .imageMenu {
-        background-image: url(images/mobile-image-hero-1.jpg) !important;
+        background-image: url(../images/mobile-image-hero-1.jpg) !important;
         background-position: center;
     }
     .slide2 {
         .imageMenu {
-            background-image: url(images/mobile-image-hero-2.jpg) !important;
+            background-image: url(../images/mobile-image-hero-2.jpg) !important;
         }
     }
     .slide3 {
         .imageMenu {
-            background-image: url(images/mobile-image-hero-3.jpg) !important;
+            background-image: url(../images/mobile-image-hero-3.jpg) !important;
         }
     }
 
