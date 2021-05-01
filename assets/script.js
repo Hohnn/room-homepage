@@ -48,3 +48,16 @@ function right() {
         menu.classList = 'menu'
     }
 }
+
+
+const hum = document.getElementById("hum")
+const nav = document.getElementById("nav")
+const navClose = document.getElementById("close")
+
+hum.addEventListener('click', () => {
+    nav.classList.add('openNav')
+})
+
+navClose.addEventListener('click', () => {
+    nav.classList.remove('openNav')
+})
